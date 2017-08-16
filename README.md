@@ -1,6 +1,6 @@
-#Model Documentation
+# Model Documentation
 
-##Approach to structure the code
+## Approach to structure the code
 
 My assumption was that the state machine needed would be a larger piece of code. I also realized that the code needed to convert the desired trajectory via *spline* into the coordinates of the map is a lengthy procedure. I therefore tried to pack these activities in separate functions and leave the main function with its loop only to collect data from sensors and feed back the new coordinates to the Json object.
 
